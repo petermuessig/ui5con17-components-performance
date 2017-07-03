@@ -1,0 +1,50 @@
+<mvc:View controllerName="ui5con.perfUI5ConPerformance.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Table id="idProductsTable"
+						inset="false"
+						items="{
+							path: '/Products',
+							sorter: {
+								path: 'Name'
+							}
+						}">
+						<headerToolbar>
+							<Toolbar>
+								<Title text="Products" level="H2"/>
+							</Toolbar>
+						</headerToolbar>
+						<columns>
+							<Column	width="12em">
+								<Text text="Product" />
+							</Column>
+							<Column	minScreenWidth="Tablet"	demandPopin="true">
+								<Text text="Description" />
+							</Column>
+							<Column
+								hAlign="Right">
+								<Text text="Price" />
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+									<Text text="{Description}" />
+									<ObjectNumber number="{
+										parts:[{path:'Price'}],
+										type: 'sap.ui.model.type.Currency',
+										formatOptions: {showMeasure: false}
+									}" />
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
