@@ -4,6 +4,10 @@ Initial project to explain the boostrap and component performance optimization o
 The slides explaining the individual steps and providing some background information can be found here on 
 [slideshare](https://de.slideshare.net/PeterMuessig1/ui5con-2017-ui5-components-more-performance)
 
+## Repository structure
+
+The repository is organized in 4 branches: master, initial, bootstrap-performance, component-performance. If you want to start with the initial project just checkout the branch initial. The bootstrap-performance branch includes the takeaways to show-case the optimizations around the bootrapping and the component-performance branch includes the takeaways around tweaking the performance of the component. The component performance also shows how to use the Grunt build for non Web IDE scenarios how you can create the preload of your application.
+
 ## Getting Started
 
 * Subscribe for a hanatrial account for usage of SAP Web IDE: https://hanatrial.ondemand.com or use your existing account for SAP Web IDE
