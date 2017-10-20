@@ -25,7 +25,7 @@ app.use("/data", proxy({target: "http://services.odata.org/V2/OData/OData.svc/",
 	'^/data/' : ''
 }, changeOrigin: true}));
 
-app.use(express.static('webapp'));
+app.use(express.static('dist'));
 
 var port = 3000;
 app.listen(port, function () {
