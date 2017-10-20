@@ -1,0 +1,30 @@
+{
+  "name": "ui5con17-components-performance",
+  "version": "1.0.0",
+  "description": "Demonstrates performance optimization possibilites for UI5 components",
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.16.2",
+    "http-proxy-middleware": "0.17.4",
+    "resolve-path": "1.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermuessig/ui5con17-components-performance.git"
+  },
+  "keywords": [
+    "UI5",
+    "Components",
+    "Performance"
+  ],
+  "author": "Peter Muessig",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/petermuessig/ui5con17-components-performance/issues"
+  },
+  "homepage": "https://github.com/petermuessig/ui5con17-components-performance#readme"
+}
