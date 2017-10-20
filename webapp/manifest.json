@@ -58,9 +58,10 @@
 				}
 			},
 			"": {
-				"type": "sap.ui.model.odata.ODataModel",
+				"type": "sap.ui.model.odata.v2.ODataModel",
 				"settings": {
-					"serviceUrl": "/data/"
+					"serviceUrl": "/data/",
+					"tokenHandling": false
 				}
 			}
 		},
