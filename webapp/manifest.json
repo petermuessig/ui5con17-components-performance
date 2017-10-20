@@ -62,7 +62,8 @@
 				"settings": {
 					"serviceUrl": "/data/",
 					"tokenHandling": false
-				}
+				},
+				"preload": true
 			}
 		},
 		"resources": {
