@@ -20,7 +20,8 @@
 			sap.ui.getCore().attachInit(function() {
 				sap.ui.component({
 					name : "ui5con.perfUI5ConPerformance",
-					async : true
+					async : true,
+					manifestFirst : true
 				}).then(function(oComponent) {
 					sap.ui.require([
 						"sap/ui/core/ComponentContainer",
