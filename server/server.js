@@ -5,7 +5,7 @@
  * 
  * resources/ => https://sapui5.hana.ondemand.com/resources/
  * test-resources/ => https://sapui5.hana.ondemand.com/test-resources/
- * data/ => http://services.odata.org/V2/OData/OData.svc/
+ * data/ => https://services.odata.org/V2/OData/OData.svc/
  */
 
 'use strict';
