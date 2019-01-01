@@ -21,7 +21,7 @@ app.use("/resources", proxy({target: "https://sapui5.hana.ondemand.com/resources
 app.use("/test-resources", proxy({target: "https://sapui5.hana.ondemand.com/test-resources/", pathRewrite: {
 	'^/test-resources/' : ''
 }, changeOrigin: true}));
-app.use("/data", proxy({target: "http://services.odata.org/V2/OData/OData.svc/", pathRewrite: {
+app.use("/data", proxy({target: "https://services.odata.org/V2/OData/OData.svc/", pathRewrite: {
 	'^/data/' : ''
 }, changeOrigin: true}));
 
